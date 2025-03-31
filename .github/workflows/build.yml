@@ -1,10 +1,10 @@
 
-name: "ECR-ECS-Deployment"
+name: "cypress-ecr"
 on:
   workflow_dispatch:
   
 jobs:
-  ECR_ECS_Deployment:
+  cypress-ecr:
     name: Build Docker Image And Push To ECR And Deploy To ECS
     runs-on: ubuntu-latest  
     steps:  
